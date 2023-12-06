@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    margin: 5%;
+    margin-right: 0%;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: blanchedalmond;
+    white-space: pre-line
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img{
+    height: 160px;
+    width: 160px;
+}
+
+.game {
+    width: 50%;
+    margin: auto;
+}
+
+
+.green{
+    background-color: green;
+    border: 10px solid rgb(0, 80, 0);
+    border-radius: 50%;
+}
+
+.red{
+    background-color: red;
+    border: 10px solid rgb(159, 0, 0);
+    border-radius: 50%;
+}
+
+.yellow{
+    background-color: yellow;
+    border: 10px solid rgb(163, 163, 1);
+    border-radius: 50%;
+}
+
+.blue{
+    background-color: blue;
+    border: 10px solid rgb(0, 0, 146);
+    border-radius: 50%;
+}
+
+.btn {
+    margin: 25px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+
+.stripe {
+    position: absolute;
+    margin-left: 5%;
+    min-height: 10%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+#blueStripe {
+    background-color: blue;
+    position: relative;
+    width: 15px;
+}
+
+#yellowStripe {
+    background-color: yellow;
+    position: relative;
+    width: 15px;
+}
+
+#redStripe{
+    background-color: red;
+    position: relative;
+    width: 15px;
+}
+
+#greenStripe{
+    background-color: green;
+    position: relative;
+    width: 15px;
+}
