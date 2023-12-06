@@ -2,10 +2,11 @@ var gameColours= ["green", "red", "yellow", "blue"];
 var levelColours = [];
 var playerColours = [];
 var level = 1;
-
+var start = false;
 $(document).keydown(function(Event){
-    if (Event.key === "s"){
+    if (Event.key === "s" && start === false){
         setupLevel();
+        start = true;
     }
 })
 
